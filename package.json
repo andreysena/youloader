@@ -1,0 +1,27 @@
+{
+  "name": "music-downloader-app",
+  "version": "1.0.0",
+  "description": "Music downloader interface",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch main.js --exec 'electron .'"
+  },
+  "keywords": [
+    "Electron",
+    "MusicDownloaderApp",
+    "JS"
+  ],
+  "author": "Andrey Sena",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^17.1.2",
+    "electron-reload": "^2.0.0-alpha.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "shelljs": "^0.8.5"
+  }
+}

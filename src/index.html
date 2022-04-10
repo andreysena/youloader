@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+		<meta http-equiv="X-Content-Security-Policy" content="script-src 'self'">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+		<title>Youloader</title>
+		<script defer type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div class="main-container">
+			<header>
+				<h1>Youloader</h1>
+			</header>
+			<main>
+				<div id="container-downloaded-music" class="container-downloaded-music">
+					<a id="text-downloaded-music" class="text-downloaded-music"></a>
+				</div>
+				<div class="add_url_area">
+					<input type="text" id="text" placeholder="Digite a url aqui"/>
+					<button class="btn-add" id="btn-add">
+						<span class="material-icons-round">
+							add
+						</span>
+					</button>
+				</div>
+				<div class="container-downloads-info">
+					<div class="container-musics-in-queue">
+						<a class="text-musics-in-queue">Músicas na fila:&nbsp
+							<a id="number-musics-in-queue" class="number-musics-in-queue">0</a>
+						</a>
+					</div>
+					<div class="container-current-downloading-music">
+						<a id="text-current-downloading-music" class="text-current-downloading-music"></a>
+					</div>
+				</div>
+				<button class="btn-start-dl" id="btn-start-dl">
+					Iniciar downloads
+				</button>
+			</main>
+		</div>
+	</body>
+</html>
